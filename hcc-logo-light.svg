@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+data-zee-theme="dark" aria-hidden="true" preserveAspectRatio="xMidYmid meet" viewBox="0 0 16 16">
+  <defs>
+    <radialGradient id="a" r="69.69%" cx="9.69%" cy="9.69%" fx="9.69%" fy="9.69%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="var(--zee-primary-color-variant)" />
+      <stop offset="100%" stop-color="var(--zee-primary-color)" />
+    </radialGradient>
+    <radialGradient id="b" href="#a">
+      <stop offset="0%" stop-color="var(--zee-secondary-color-variant)" />
+      <stop offset="100%" stop-color="var(--zee-secondary-color)" />
+    </radialGradient>
+    <g id="logo">
+      <path fill="url(#a)"
+        d="M 7.441406 9.535156 L 6.101562 9.535156 C 5.09375 9.589844 4.496094 9.761719 4.425781 11.503906 L 4.425781 15.945312 C 0.0507812 15.945312 0.0507812 15.945312 0.0507812 13.960938 L 0.0507812 2.0625 C 0.0507812 0.078125 0.0507812 0.078125 4.425781 0.078125 L 4.425781 4.511719 C 4.425781 6.144531 5.09375 6.425781 6.101562 6.484375 L 9.898438 6.484375 C 10.917969 6.40625 11.574219 6.144531 11.574219 4.515625 L 11.574219 0.078125 C 15.96875 0.078125 15.949219 0.078125 15.949219 2.0625 L 15.949219 13.960938 C 15.949219 15.945312 15.96875 15.945312 11.574219 15.945312 L 11.574219 11.503906 C 11.585938 9.761719 10.917969 9.597656 9.898438 9.535156 Z M 7.441406 9.535156 " />
+      <path fill="url(#b)"
+        d="M 8 3.304688 C 7.441406 3.304688 7.441406 2.460938 8.023438 2.460938 L 10.78125 2.460938 L 10.78125 1.308594 C 10.78125 0.914062 10.78125 0.0507812 9.984375 0.0507812 L 6.21875 0.078125 C 5.222656 0.078125 5.222656 0.871094 5.222656 1.269531 L 5.222656 4.441406 C 5.222656 4.839844 5.222656 5.703125 6.21875 5.703125 L 9.984375 5.714844 C 10.78125 5.714844 10.78125 4.851562 10.78125 4.453125 L 10.78125 3.304688 Z M 8.011719 13.539062 C 7.449219 13.539062 7.449219 12.695312 8.03125 12.695312 L 10.785156 12.695312 L 10.785156 11.546875 C 10.785156 11.148438 10.785156 10.285156 9.988281 10.285156 L 6.226562 10.3125 C 5.230469 10.3125 5.230469 11.109375 5.230469 11.503906 L 5.230469 14.675781 C 5.230469 15.074219 5.230469 15.9375 6.226562 15.9375 L 9.988281 15.949219 C 10.785156 15.949219 10.785156 15.089844 10.785156 14.6875 L 10.785156 13.539062 Z M 8.011719 13.539062 " />
+    </g>
+  </defs>
+  <style>
+    <![CDATA[
+    :root,
+    :host,
+    [data-zee-theme="auto"],
+    [data-zee-theme="light"] {
+      color-scheme: light;
+      --zee-primary-color: #00386C;
+      --zee-primary-color-variant: #0068A5;
+      --zee-secondary-color: #CD0000;
+      --zee-secondary-color-variant: #FF4D4D;
+      --zee-logo-filter: brightness(100%);
+    }
+
+    [data-zee-theme="dark"] {
+      color-scheme: dark;
+      --zee-logo-filter: brightness(132%);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      [data-zee-theme="auto"] {
+        color-scheme: dark;
+        --zee-logo-filter: brightness(132%);
+      }
+    }
+
+    #logo {
+      filter: var(--zee-logo-filter);
+      shape-rendering: geometricPrecision;
+    }
+    ]]>
+  </style>
+  <g transform="scale(0.5) translate(8, 8)">
+    <g filter="brightness(132%) blur(3.2px)" opacity="0.96">
+      <use href="#logo">
+      </use>
+    </g>
+    <g filter="contrast(200%)">
+      <use href="#logo">
+      </use>
+    </g>
+  </g>
+</svg>

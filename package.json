@@ -1,0 +1,12 @@
+{
+  "name": "tams-tampermonkey",
+  "version": "1.0.0",
+  "main": "hcc-tams.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "MasterZeeno <zeenoliev@gmail.com>",
+  "license": "MIT",
+  "description": ""
+}

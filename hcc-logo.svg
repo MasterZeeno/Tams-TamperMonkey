@@ -1,0 +1,25 @@
+<svg id="hcc-logo" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="prefix__iconify prefix__iconify--logos"
+  vector-effect="non-scaling-stroke" shape-rendering="geometricPrecision" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="light-blue" x1="-.828%" x2="57.636%" y1="7.652%" y2="78.411%">
+      <stop offset="0%" stop-color="#0068A5" />
+      <stop offset="100%" stop-color="#00386C" />
+    </linearGradient>
+    <linearGradient id="light-red" x1="-.828%" x2="57.636%" y1="7.652%" y2="78.411%">
+      <stop offset="0%" stop-color="#FF4D4D" />
+      <stop offset="100%" stop-color="#CD0000" />
+    </linearGradient>
+    <linearGradient id="dark-blue" x1="-.828%" x2="57.636%" y1="7.652%" y2="78.411%">
+      <stop offset="0%" stop-color="#00C8FF" />
+      <stop offset="100%" stop-color="#0068A5" />
+    </linearGradient>
+    <linearGradient id="dark-red" x1="-.828%" x2="57.636%" y1="7.652%" y2="78.411%">
+      <stop offset="0%" stop-color="#FF7A7A" />
+      <stop offset="100%" stop-color="#FF0101" />
+    </linearGradient>
+  </defs>
+  <path class="blue" fill="url(#light-blue)"
+    d="M14.879 19.074h-2.676c-2.015.102-3.207.45-3.348 3.934v8.879c-8.757 0-8.757 0-8.757-3.965v-23.8C.098.155.098.155 8.855.155V9.02c0 3.27 1.332 3.828 3.348 3.949h7.594c2.039-.156 3.348-.68 3.348-3.934V.156c8.793 0 8.753 0 8.753 3.969v23.797c0 3.965.04 3.965-8.753 3.965v-8.88c.023-3.484-1.31-3.812-3.348-3.933z" />
+  <path class="red" fill="url(#light-red)"
+    d="M16 6.613c-1.121 0-1.121-1.695.05-1.695h5.509V2.621c0-.793 0-2.52-1.594-2.52l-7.528.055c-1.992 0-1.992 1.586-1.992 2.38v6.347c0 .793 0 2.52 1.992 2.52l7.528.027c1.594 0 1.594-1.727 1.594-2.52V6.613zm.02 20.469c-1.125 0-1.125-1.695.046-1.695h5.504V23.09c0-.793 0-2.52-1.59-2.52l-7.527.055c-1.992 0-1.992 1.59-1.992 2.383v6.344c0 .793 0 2.52 1.992 2.52l7.527.026c1.594 0 1.594-1.722 1.594-2.52v-2.296z" />
+</svg>
