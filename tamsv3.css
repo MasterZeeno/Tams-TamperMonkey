@@ -1,105 +1,130 @@
 :root,
 :host {
-    /* Primary */
-    --midnight-blue-50: #def0ff;
-    --midnight-blue-100: #b5ddff;
-    --midnight-blue-200: #7ac6ff;
-    --midnight-blue-300: #1fa6ff;
-    --midnight-blue-400: #0067b6;
-    --midnight-blue-500: #00387c;
-    --midnight-blue-600: #00247c;
-    --midnight-blue-700: #00167c;
-    --midnight-blue-800: #001270;
-    --midnight-blue-900: #001357;
-    --midnight-blue-950: #000e3c;
-    /* Primary Variant */
-    --matisse-50: #eaf6ff;
-    --matisse-100: #d2ebff;
-    --matisse-200: #9fd8ff;
-    --matisse-300: #48b9ff;
-    --matisse-400: #0097f1;
-    --matisse-500: #0068a5;
-    --matisse-600: #00548e;
-    --matisse-700: #004272;
-    --matisse-800: #00375d;
-    --matisse-900: #032e4f;
-    --matisse-950: #021d34;
-    /* Secondary */
-    --thunderbird-50: #ffebeb;
-    --thunderbird-100: #ffd3d3;
-    --thunderbird-200: #ffaeae;
-    --thunderbird-300: #ff7575;
-    --thunderbird-400: #ff2727;
-    --thunderbird-500: #cd0000;
-    --thunderbird-600: #b20202;
-    --thunderbird-700: #8f0000;
-    --thunderbird-800: #7a0303;
-    --thunderbird-900: #650808;
-    --thunderbird-950: #380000;
-    /* Secondary Variant */
-    --coral-red-50: #fff1f1;
-    --coral-red-100: #ffdfdf;
-    --coral-red-200: #ffc5c5;
-    --coral-red-300: #ff9d9d;
-    --coral-red-400: #ff6464;
-    --coral-red-500: #ff4d4d;
-    --coral-red-600: #ed1515;
-    --coral-red-700: #c80d0d;
-    --coral-red-800: #a50f0f;
-    --coral-red-900: #881414;
-    --coral-red-950: #4b0404;
+  /* Primary */
+  --midnight-blue-50: #def0ff;
+  --midnight-blue-100: #b5ddff;
+  --midnight-blue-200: #7ac6ff;
+  --midnight-blue-300: #1fa6ff;
+  --midnight-blue-400: #0067b6;
+  --midnight-blue-500: #00387c;
+  --midnight-blue-600: #00247c;
+  --midnight-blue-700: #00167c;
+  --midnight-blue-800: #001270;
+  --midnight-blue-900: #001357;
+  --midnight-blue-950: #000e3c;
+  /* Primary Variant */
+  --matisse-50: #eaf6ff;
+  --matisse-100: #d2ebff;
+  --matisse-200: #9fd8ff;
+  --matisse-300: #48b9ff;
+  --matisse-400: #0097f1;
+  --matisse-500: #0068a5;
+  --matisse-600: #00548e;
+  --matisse-700: #004272;
+  --matisse-800: #00375d;
+  --matisse-900: #032e4f;
+  --matisse-950: #021d34;
+  /* Secondary */
+  --thunderbird-50: #ffebeb;
+  --thunderbird-100: #ffd3d3;
+  --thunderbird-200: #ffaeae;
+  --thunderbird-300: #ff7575;
+  --thunderbird-400: #ff2727;
+  --thunderbird-500: #cd0000;
+  --thunderbird-600: #b20202;
+  --thunderbird-700: #8f0000;
+  --thunderbird-800: #7a0303;
+  --thunderbird-900: #650808;
+  --thunderbird-950: #380000;
+  /* Secondary Variant */
+  --coral-red-50: #fff1f1;
+  --coral-red-100: #ffdfdf;
+  --coral-red-200: #ffc5c5;
+  --coral-red-300: #ff9d9d;
+  --coral-red-400: #ff6464;
+  --coral-red-500: #ff4d4d;
+  --coral-red-600: #ed1515;
+  --coral-red-700: #c80d0d;
+  --coral-red-800: #a50f0f;
+  --coral-red-900: #881414;
+  --coral-red-950: #4b0404;
 }
 
 :root,
 :host {
-    --zee-primary-color: var(--midnight-blue-500);
-    --zee-primary-color-variant: var(--matisse-500);
-    --zee-secondary-color: var(--thunderbird-500);
-    --zee-secondary-color-variant: var(--coral-red-500);
-    --zee-black-color: #000;
-    --zee-white-color: #fff;
+  --bs-primary-color: var(--midnight-blue-500);
+  --bs-primary-color-variant: var(--matisse-500);
+  --bs-alternate-color: var(--thunderbird-500);
+  --bs-alternate-color-variant: var(--coral-red-500);
+  --bs-black-color: #000;
+  --bs-white-color: #fff;
+  --bs-primary-default-gradient: linear-gradient(45deg, var(--midnight-blue-500), var(--midnight-blue-600));
+  --bs-primary-hover-gradient: linear-gradient(45deg, var(--midnight-blue-600), var(--midnight-blue-700));
+  --bs-primary-active-gradient: linear-gradient(45deg, var(--midnight-blue-700), var(--midnight-blue-800));
 }
 
 :root,
 :host,
-[data-zee-theme="auto"],
-[data-zee-theme="light"] {
-    color-scheme: light;
-    --zee-logo-filter: brightness(100%);
-    --zee-color: var(--zee-black-color);
-    --zee-color-heading: var(var(--zee-primary-color));
-    --zee-color-bg: var(--midnight-blue-50);
+[data-bs-theme="auto"],
+[data-bs-theme="light"] {
+  color-scheme: light;
+  --bs-logo-filter: brightness(100%);
+  --bs-color: var(--bs-black-color);
+  --bs-heading-color: var(--bs-primary-color);
+  --bs-body-bg: var(--midnight-blue-50);
 }
 
-[data-zee-theme="dark"] {
-    color-scheme: dark;
-    --zee-logo-filter: brightness(132%);
-    --zee-color: var(--zee-white-color);
-    --zee-color-heading: var(var(--zee-white-color));
-    --zee-color-bg: var(--midnight-blue-950);
+[data-bs-theme="dark"] {
+  color-scheme: dark;
+  --bs-logo-filter: brightness(169%);
+  --bs-color: var(--bs-white-color);
+  --bs-heading-color: var(--bs-white-color);
+  --bs-body-bg: var(--midnight-blue-950);
 }
 
 @media (prefers-color-scheme: dark) {
-    [data-zee-theme="auto"] {
-        color-scheme: dark;
-        --zee-logo-filter: brightness(132%);
-        --zee-color: var(--zee-white-color);
-        --zee-color-heading: var(var(--zee-white-color));
-        --zee-color-bg: var(--midnight-blue-950);
-    }
+  [data-bs-theme="auto"] {
+    color-scheme: dark;
+    --bs-logo-filter: brightness(169%);
+    --bs-color: var(--bs-white-color);
+    --bs-heading-color: var(--bs-white-color);
+    --bs-body-bg: var(--midnight-blue-950);
+  }
 }
 
+html,
 body {
-    background-color: var(--zee-color-bg);
-    color: var(--zee-color);
+  min-height: 100vh;
+  overflow: hidden;
+  font-size: 16px !important;
+  background-color: var(--bs-body-bg) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login-box {
+  width: 280px !important;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+.login-box>div {
+  background-color: transparent;
 }
 
 #logo {
-    filter: var(--zee-logo-filter);
-    shape-rendering: geometricPrecision;
+  filter: var(--bs-logo-filter) !important;
+  shape-rendering: geometricPrecision !important;
 }
 
-.title {
-    font-weight: 900;
-    color: var(--zee-color-heading);
+button,
+input {
+  border-radius: 1.5rem !important;
+}
+
+.login-logo a {
+  font-weight: 900;
+  color: var(--bs-heading-color);
 }

@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="https://hcc-tams.com.ph/tams/assets/images/logo.png" type="image/x-icon">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">  <title>Profile | TAMSv2</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"> 
+  <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/dist/css/AdminLTE.min.css">
+
+  <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/dist/css/skins/_all-skins.min.css">
+
+ <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+
+ <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/bower_components/select2/dist/css/select2.min.css">
+
+  <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/plugins/alertify/css/alertify.css">
+  <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/plugins/alertify/css/alertify.min.css">
+  <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/bower_components/bootstrap-daterangepicker/daterangepicker.css">
+
+  <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/plugins/timepicker/bootstrap-timepicker.min.css">
+
+  <link rel="stylesheet" href="https://hcc-tams.com.ph/tams/assets/swal/dist/sweetalert.css">
+  <script src="https://hcc-tams.com.ph/tams/assets/swal/dist/sweetalert.js"></script>
+
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+<script src="https://hcc-tams.com.ph/tams/assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="https://hcc-tams.com.ph/tams/assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://hcc-tams.com.ph/tams/assets/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="https://hcc-tams.com.ph/tams/assets/bower_components/fastclick/lib/fastclick.js"></script>
+<script src="https://hcc-tams.com.ph/tams/assets/dist/js/adminlte.min.js"></script>
+<script src="https://hcc-tams.com.ph/tams/assets/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="https://hcc-tams.com.ph/tams/assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script src="https://hcc-tams.com.ph/tams/assets/plugins/jquery-validation/jquery.validate.min.js"></script>
+<script src="https://hcc-tams.com.ph/tams/assets/bower_components/select2/dist/js/select2.full.min.js"></script>
+
+<script src="https://hcc-tams.com.ph/tams/assets/plugins/timepicker/bootstrap-timepicker.js"></script>
+
+<!--Notify-->
+<script src="https://hcc-tams.com.ph/tams/assets/plugins/alertify/alertify.js"></script>
+<script src="https://hcc-tams.com.ph/tams/assets/plugins/alertify/alertify.min.js"></script>
+
+<!-- date-range-picker -->
+<script src="https://hcc-tams.com.ph/tams/assets/bower_components/moment/min/moment.min.js"></script>
+<script src="https://hcc-tams.com.ph/tams/assets/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+        
+<header class="main-header">
+  <a href="https://hcc-tams.com.ph/tams/" class="logo">
+    <span class="logo-mini">TAMSv2</span>
+    <span class="logo-lg">TAMSv2</span>
+  </a>
+
+  <nav class="navbar navbar-static-top">
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button"><span class="sr-only">Toggle navigation</span></a>
+      <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+
+            <!--  -->
+
+          <li class="dropdown user user-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <img src="https://hcc-tams.com.ph/tams/emp_img/5d7aa8feb50ccc58e3fa88d81fc2277e.jpg" class="user-image" alt="">
+                  <span class="hidden-xs">CIMACIO                       , JAY AR                         ADLAON                        </span>
+              </a>
+
+              <ul class="dropdown-menu">
+                  <li class="user-header">
+                      <img src="https://hcc-tams.com.ph/tams/emp_img/5d7aa8feb50ccc58e3fa88d81fc2277e.jpg" class="img-circle" alt="">
+                      <p>
+                      CIMACIO                       , JAY AR                         ADLAON                                              <small>EHS NURSE                </small>
+                      </p>
+                  </li>
+
+
+                  <li class="user-footer">
+                    <div class="pull-left">
+                        <button class="btn btn-info" onclick="location.href='https://hcc-tams.com.ph/tams/app/user_profile';">Profile</button>
+                    </div>
+                    <div class="pull-right">
+                        <button class="btn btn-danger" data-href="https://hcc-tams.com.ph/tams/app/signout" data-toggle="modal" data-target="#log-off">Sign out</button>
+                    </div>
+                  </li>
+              </ul>
+          </li>
+
+          </ul>
+        </div>
+  </nav>
+</header>
+    <aside class="main-sidebar">
+    <section class="sidebar">
+      <div class="box-body box-primary">
+        <img src="https://hcc-tams.com.ph/tams/assets/images/logo.png" class="img-responsive profile-user-img" alt="Company Logo">
+      </div>
+
+      <ul class="sidebar-menu" data-widget="tree">
+        <li class="header">MAIN MENU</li>
+
+          <li id="menu_dashboard">
+            <a href="https://hcc-tams.com.ph/tams/">
+              <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+              <span class="pull-right-container">
+              </span>
+            </a>
+          </li>
+
+          <li id="menu_dtr">
+            <a href="https://hcc-tams.com.ph/tams/attendance">
+              <i class="fa fa-clock-o"></i> <span>Daily Time Record</span>
+              <span class="pull-right-container">
+              </span>
+            </a>
+          </li>
+
+          <li id="menu_payslip">
+            <a href="https://hcc-tams.com.ph/tams/app/payslip">
+              <i class="fa fa-money"></i> <span>Payslip Inquiry</span>
+              <span class="pull-right-container">
+              </span>
+            </a>
+          </li>
+
+          <li id="menu_leaves">
+            <a href="https://hcc-tams.com.ph/tams/filing/leave">
+              <i class="fa fa-hotel"></i> <span>Leaves</span>
+              <span class="pull-right-container">
+              </span>
+            </a>
+          </li>
+
+          <li id="menu_ob">
+            <a href="https://hcc-tams.com.ph/tams/filing/officialbusiness">
+              <i class="fa fa-bus"></i> <span>Official Business</span>
+              <span class="pull-right-container">
+              </span>
+            </a>
+          </li>
+
+          <li id="menu_ot">
+            <a href="https://hcc-tams.com.ph/tams/filing/overtime">
+              <i class="fa fa-hourglass-end"></i> <span>Overtime</span>
+              <span class="pull-right-container">
+              </span>
+            </a>
+          </li>
+
+          <li class="treeview" id="menu_my_settings">
+            <a href="#">
+              <i class="fa fa-gears"></i> <span>My Settings</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+             <ul class="treeview-menu">
+                <li id="sub_menu_profile"><a href="https://hcc-tams.com.ph/tams/app/user_profile"><i class="fa fa-circle-o text-aqua"></i> Profile</a></li>
+                <li id="sub_menu_change_pass"><a href="https://hcc-tams.com.ph/tams/app/change_pass"><i class="fa fa-circle-o text-red"></i> Change Password</a></li>
+              </ul>
+          </li>
+          
+          <li class="treeview" id="menu_approvals1">
+            <a href="#">
+              <i class="fa fa-clipboard"></i> <span>Level 1 Approvals</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+             <ul class="treeview-menu">
+                <li id="sub_menu_approval1_leaves"><a href="https://hcc-tams.com.ph/tams/approvals/leave1"><i class="fa fa-circle-o text-green"></i> Leave</a></li>
+                <li id="sub_menu_approval1_ot"><a href="https://hcc-tams.com.ph/tams/approvals/ot1"><i class="fa fa-circle-o text-red"></i> Overtime</a></li>
+                <li id="sub_menu_approval1_ob"><a href="https://hcc-tams.com.ph/tams/approvals/ob1"><i class="fa fa-circle-o text-blue"></i> Official Business</a></li>
+              </ul>
+          </li>
+          
+          <li class="treeview" id="menu_approvals2">
+            <a href="#">
+              <i class="fa fa-copy"></i> <span>Level 2 Approvals</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+             <ul class="treeview-menu">
+                <li id="sub_menu_approval2_leaves"><a href="https://hcc-tams.com.ph/tams/approvals/leave2"><i class="fa fa-circle-o text-green"></i> Leave</a></li>
+                <li id="sub_menu_approval2_ot"><a href="https://hcc-tams.com.ph/tams/approvals/ot2"><i class="fa fa-circle-o text-red"></i> Overtime</a></li>
+                <li id="sub_menu_approval2_ob"><a href="https://hcc-tams.com.ph/tams/approvals/ob2"><i class="fa fa-circle-o text-blue"></i> Official Business</a></li>
+              </ul>
+          </li>
+
+          
+          <li>
+            <a data-href="https://hcc-tams.com.ph/tams/App/signout" data-toggle="modal" data-target="#log-off">
+              <i class="fa fa-sign-out text-yellow"></i> <span class="text-yellow">Sign out</span>
+              <span class="pull-right-container">
+              </span>
+            </a>
+          </li>
+      </ul>
+    </section>
+  </aside>
+
+
+  <div id="log-off" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><span class="fa fa-sign-out"></span> Confirm Logout</h4>
+      </div>
+      <div class="modal-body">
+        <p>You are about to logout from the system, are you sure?</p>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-danger btn-logout">Logout</a>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <div class="content-wrapper"> <!--CONTENT -->
+    <section class="content-header">
+      <h1>
+        Profile        <small>employee information</small>
+      </h1>
+    </section>
+    <section class="content">
+	<div class="row">
+		<div class="col-md-8">
+			<div class="box box-info">
+				<div class="box-header with-border">
+				    <h3 class="box-title">Personal Information</h3>
+				</div>
+				<div class="box-body">
+					<div class="col-md-12">
+						<div class="col-md-2">
+										    			<img src="https://hcc-tams.com.ph/tams/emp_img/5d7aa8feb50ccc58e3fa88d81fc2277e.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+						</div>
+						<div class="col-md-10">
+												   		<div class="form-group">
+			                  <label for="employee_ID" class="col-sm-2 control-label">ID</label>
+			                  <div class="col-sm-10">
+			                    <input type="text" name="employee_id" value="15913" class="form-control" id="employee_id" placeholder="Emplooyee ID" required="required" readonly>
+			                    <p class="text-red" for="employee_id"></p>
+			                  </div>
+			                </div>
+
+
+			                <div class="form-group">
+			                  <label for="lastname" class="col-sm-2 control-label">Name</label>
+			                  <div class="col-sm-10">
+			                    <input type="text" class="form-control" value="CIMACIO                       , JAY AR                         ADLAON                        " name="lastname" id="lastname" placeholder="Last Name" required="required" readonly>
+			                    <p class="text-red" for="lastname"></p>
+			                  </div>
+			                </div>
+
+
+			                <div class="form-group">
+			                  <label for="firstname" class="col-sm-2 control-label">Position</label>
+			                  <div class="col-sm-10">
+			                    <input type="text" class="form-control" value="EHS NURSE                " name="firstname" id="firstname" placeholder="First Name" required="required" readonly>
+			                    <p class="text-red" for="firstname"></p>
+			                  </div>
+			                </div>
+
+
+			                <div class="form-group">
+			                  <label for="middlename" class="col-sm-2 control-label">Department</label>
+			                  <div class="col-sm-10">
+			                    <input type="text" class="form-control" value="NSBP2 - CONSTRUCTION OF THE NEW SENATE BUILDING (PHASE II)                 " name="middlename" id="middlename" placeholder="Middle Name" required="required" readonly>
+			                    <p class="text-red" for="middlename"></p>
+			                  </div>
+			                </div>
+
+			                <div class="form-group">
+			                  <label for="middlename" class="col-sm-2 control-label">Date Hired</label>
+			                  <div class="col-sm-10">
+			                    <input type="text" class="form-control" value="September 24, 2020" name="home_address" id="home_address" placeholder="Address" required="required" readonly>
+			                    <p class="text-red" for="middlename"></p>
+			                  </div>
+			                </div>
+
+				                <div class="form-group">
+			                  <label for="date_of_birth" class="col-sm-2 control-label">Status</label>
+			                  <div class="col-sm-10">
+								<input type="text" class="form-control" value="Regular" name="home_address" id="home_address" placeholder="Address" required="required" readonly>
+			                    <p class="text-red" for="date_of_birth"></p>
+			                  </div>
+			                </div>
+			               						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="box box-info">
+				<div class="box-header with-border">
+				    <h3 class="box-title">Leave Balances</h3>
+				</div>
+				<div class="box-body">
+					<div class="col-md-12">
+						<table class="table table-bordered">
+		                    		<!-- <thead>
+		                    			<tr>
+		                    				<th>Leave Type</th>
+		                    				<th>Balance</th>
+		                    			</tr>
+		                    		</thead> -->
+		                    		<tbody>
+		                    			<tr>
+		                    				<td>Sick Leave (SL)</td>
+		                    				<td>-1.50</td>
+		                      			</tr>
+		                      			<tr>
+		                    				<td>Vacation Leave (VL)</td>
+		                    				<td>-3.00</td>
+		                      			</tr>
+
+		                      			<tr>
+		                    				<td>Service Incentive Leave (SIL)</td>
+		                    				<td>0.00</td>
+		                      			</tr>
+		                      			<tr>
+		                    				<td>Solo Parent Leave (SPL)</td>
+		                    				<td>0.00</td>
+		                      			</tr>
+										<tr>
+		                    				<td>Previous SL</td>
+		                    				<td>0.00</td>
+		                      			</tr>
+										<tr>
+		                    				<td>Previous VL</td>
+		                    				<td>0.00</td>
+		                      			</tr>
+		                    		</tbody>
+		                    	</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="content">
+	<div class="row">
+		<div class="col-md-8">
+			<div class="box box-info">
+				<div class="box-header with-border">
+				    <h3 class="box-title">News</h3>
+				</div>
+				<div class="box-body">
+					<div class="col-md-12">
+						    <ul class="timeline">
+							    							    <li>
+							        <i class="fa  fa-comments bg-yellow"></i>
+							        <div class="timeline-item">
+							            <span class="time"><i class="fa fa-clock-o"></i> 2024-Jul-17 2:08 PM</span>
+
+							            <h3 class="timeline-header"><a>Nais ipaalam ng Payroll Department  na kung sino man ang may PAYROLL RELATED COMPLAINT ay pansamantala munang mag email sa  hcc.pyd@gmail.com dahil ang ating opisyal na WEB MAIL ay kasalukuyang inaayos ng IT Dept.. Kami ay muling magbibigay ng anunsyo kung maaari ng gamitin muli ang  opisyal na WEBMAIL ng Payroll Dept.  Maraming salamat.</a></h3>
+
+							            <div class="timeline-body">
+							                Nais ipaalam ng Payroll Department  na kung sino man ang may PAYROLL RELATED COMPLAINT ay pansamantala munang mag email sa  hcc.pyd@gmail.com dahil ang ating opisyal na WEB MAIL ay kasalukuyang inaayos ng IT Dept.. Kami ay muling magbibigay ng anunsyo kung maaari ng gamitin muli ang  opisyal na WEBMAIL ng Payroll Dept.  Maraming salamat.							            </div>
+
+							            							        </div>
+							    </li>
+							    							    <li>
+							        <i class="fa  fa-comments bg-yellow"></i>
+							        <div class="timeline-item">
+							            <span class="time"><i class="fa fa-clock-o"></i> 2024-Feb-28 9:15 AM</span>
+
+							            <h3 class="timeline-header"><a>Good day! Nais po naming ipaalam sa lahat ng kinauukulan na ang kakulangan ng ating Philhealth contribution para sa buwan ng January 2024 ay ikakaltas sa ikalawang payroll ng February 2024. Ito ay katumbas ng 0.5% ng ating basic salary.Ang halaga ng kaltas ay makikita sa “OTHERS” ng pay slip. Salamat po</a></h3>
+
+							            <div class="timeline-body">
+							                Good day! Nais po naming ipaalam sa lahat ng kinauukulan na ang kakulangan ng ating Philhealth contribution para sa buwan ng January 2024 ay ikakaltas sa ikalawang payroll ng February 2024. Ito ay katumbas ng 0.5% ng ating basic salary.Ang halaga ng kaltas ay makikita sa “OTHERS” ng pay slip. Salamat po							            </div>
+
+							            							        </div>
+							    </li>
+							    							    <li>
+							        <i class="fa  fa-comments bg-yellow"></i>
+							        <div class="timeline-item">
+							            <span class="time"><i class="fa fa-clock-o"></i> 2023-Dec-14 3:44 PM</span>
+
+							            <h3 class="timeline-header"><a>Sa mga empleyado na meron pa pong balanse o  natitira pang leaves, makikisuyo po sana na mag file na po kayo ng maaga ng Company Designated Leaves at kung maari po ay pa-approve na rin po kaagad sa mga approver po natin. Ito ay sa dahilang maglalagay na po ang Payroll Department ng panibagong Leaves ( VL at SL). Maraming Salamat</a></h3>
+
+							            <div class="timeline-body">
+							                Sa mga empleyado na meron pa pong balanse o  natitira pang leaves, makikisuyo po sana na mag file na po kayo ng maaga ng Company Designated Leaves at kung maari po ay pa-approve na rin po kaagad sa mga approver po natin. Ito ay sa dahilang maglalagay na po ang Payroll Department ng panibagong Leaves ( VL at SL). Maraming Salamat							            </div>
+
+							            							        </div>
+							    </li>
+							    							    <a href="https://hcc-tams.com.ph/tams/app/news" class="btn btn-xs btn-primary pull-right">View All News</a>
+							</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="box box-info">
+				<div class="box-header with-border">
+				    <h3 class="box-title">Holiday for the Month of <strong>August 2024</strong></h3>
+				</div>
+				<div class="box-body">
+					<div class="col-md-12">
+						<table class="table">
+							<tbody>
+																<tr>
+									<td class="text-muted">21</td>
+									<td>Ninoy Aquino Day </td>
+									<td class="text-muted">Special Holiday</td>
+								</tr>
+																<tr>
+									<td class="text-muted">26</td>
+									<td>National Heroes Day</td>
+									<td class="text-muted">Regular Holiday</td>
+								</tr>
+															</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+  $(document).ready(function() {
+    
+    var element = document.getElementById("menu_dashboard");
+    element.classList.add("active");
+
+  });
+</script>  </div> 
+<footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 2.0
+    </div>
+    <strong>Time and Attendance Monitoring System (TAMS) - HILMARC'S</strong>  
+  </footer> 
+  <div class="control-sidebar-bg"></div>
+</div>
+<script>
+    $(document).ready(function() {
+
+        $('.modal').on('hidden.bs.modal',function(){
+            $('#id_dtls').html('');
+        });
+
+        $('#id_userdetails').on('hidden.bs.modal', function () {
+            location.reload();
+        });
+
+        $('.sidebar-menu').tree()
+
+        $('#tbl_leaves').DataTable({
+            "order": [[1, "desc"]],
+            "paging": true
+        });
+
+        $('#tbl_pay13').DataTable({
+            "order": [[1, "desc"]],
+            "paging": true
+        });
+
+        $('#tbl_payroll').DataTable({
+            "order": [[1, "desc"]],
+            "paging": true
+        });
+
+        $('#tbl_holiday').DataTable({
+            "order": [[1, "desc"]],
+            "paging": true,
+            "pageLength": 25,
+        });
+
+        $('#tbl_ob').DataTable({
+            "order": [[1, "desc"]],
+            "paging": true
+        });
+
+        $('#tbl_overtime').DataTable({
+            "order": [[1, "desc"]],
+            "paging": true
+        });
+
+        $('#tbl_employee').DataTable({
+            "order": [[1, "asc"]],
+            "paging": true,
+            "pageLength": 25,
+        });
+
+        $('#tbl_department').DataTable({
+            "order": [[2, "asc"]],
+            "paging": true,
+            "pageLength": 25,
+        });
+
+        $('#tbl_approvers').DataTable({
+            "order": [[2, "asc"]],
+            "paging": true,
+            "pageLength": 25,
+        });
+
+        $('#tbl_news').DataTable({
+            "order": [[1, "desc"]],
+            "paging": true,
+            "pageLength": 25,
+        });
+
+        $('#pending_approvals').DataTable({
+            "order": [[1, "desc"]],
+            "paging": true,
+            "pageLength": 25,
+        });
+
+
+        //NOTIFICATION AUTO CLOSE
+        setTimeout(function() {
+            $('#notifier').fadeOut('slow');
+        }, 5000);
+
+        $('#employee_id').blur(function() {
+            var emp_id = $('#employee_id').val();
+            if (emp_id != '') {
+                $.ajax({
+                    url: 'https://hcc-tams.com.ph/tams/employee/checkUserID/' + emp_id,
+                    success: function(msg) {
+                        if (msg == true) {
+                            $("#employee_id").val('');
+                            //$("#employee_id").addClass('bg-red');
+                            $("#err_uid").html('<span class="text-red">Employee ID <strong>' + emp_id + '</strong> already exist!</span>');
+                        } else {
+                            //$("#employee_id").removeClass('bg-red');
+                            $("#err_uid").html('');
+                        }
+                    }
+                }); //ajax
+            } //if
+        }); //keyup
+
+
+        $('#leave_date_from').blur(function() {
+
+
+            var cutoff_date = new Date($('#cutoff_date').val());
+
+            var date_from = new Date($('#leave_date_from').val());
+            var date_to = new Date($('#leave_date_to').val());
+            var diff_in_time = date_to.getTime() - date_from.getTime();
+            var diff_in_days = diff_in_time / (1000 * 3600 * 24);
+            var num_days = diff_in_days + 1;
+
+            document.getElementById("leave_num_days").value = num_days;
+
+            var $workdays = calcSundays(date_from,date_to);
+            document.getElementById("working_days").value = num_days - $workdays;
+
+            if(cutoffCheck(cutoff_date,date_from)){
+                sweetAlert("Invalid Filing Date", "Date filed must be after cut-off period! Please select another date.", "error");
+                document.getElementById("btnSubmit").disabled = true;       
+                document.getElementById("leave_date_to").disabled = true;         
+            }else{
+                 document.getElementById("btnSubmit").disabled = false;
+                 document.getElementById("leave_date_to").disabled = false;
+            }
+        
+
+            calc_deduction();
+
+        });
+
+        $('#leave_date_to').blur(function() {
+
+            var cutoff_date = new Date($('#cutoff_date').val());
+
+            var date_from = new Date($('#leave_date_from').val());
+            var date_to = new Date($('#leave_date_to').val());
+            var diff_in_time = date_to.getTime() - date_from.getTime();
+            var diff_in_days = diff_in_time / (1000 * 3600 * 24);
+            var num_days = diff_in_days + 1;
+
+            document.getElementById("leave_num_days").value = num_days;
+
+            if (date_from > date_to) {
+                sweetAlert("Invalid Date", "Date From must not be greater than Date To.", "error");
+            }
+
+            var $workdays = calcSundays(date_from,date_to);
+            document.getElementById("working_days").value = num_days - $workdays;
+
+           if(cutoffCheck(cutoff_date,date_to)){
+                sweetAlert("Invalid Filing Date", "Date filed must be after cut-off period! Please select another date.", "error");
+                document.getElementById("btnSubmit").disabled = true;            
+            }else{
+                 document.getElementById("btnSubmit").disabled = false;
+            }
+            
+            calc_deduction();
+
+
+        });
+
+        $('#rate').blur(function(){
+           calc_deduction();
+
+        });
+
+        function calc_deduction()
+        {
+            try{
+                var e = document.getElementById("rate");
+                var e_rate = e.value;
+
+                var b = document.getElementById("working_days");
+                var b_val = b.value;
+                var use_rate = 0;
+
+                if(b_val > 1){
+                  use_rate = 1;
+                }else{
+                  use_rate = e_rate;
+                }
+        
+               // document.getElementById("deduct_balance").value = use_rate * b_val;
+
+            }catch(err){
+                console.log(err.message);
+            }
+           
+        }
+
+        //OT FILING VALIDATION
+        $('#ot_date_from').blur(function(){
+            var cutoff_date = new Date($('#cutoff_date').val());
+            var date_from = new Date($('#ot_date_from').val());
+            var date_to = new Date($('#ot_date_to').val());
+            var filed_date = date_from.toISOString().split('T')[0];
+           if(cutoffCheck(cutoff_date,filed_date)){
+                sweetAlert("Invalid Filing Date", "Date filed must be after cut-off period! Please select another date.", "error");
+                document.getElementById("btnSubmitOT").disabled = true;    
+            }else{
+                 document.getElementById("btnSubmitOT").disabled = false;
+            }
+
+
+        });
+
+        $('#ot_date_to').blur(function(){
+            var cutoff_date = new Date($('#cutoff_date').val());
+            var date_from = new Date($('#ot_date_from').val());
+            var date_to = new Date($('#ot_date_to').val());
+            if (date_from > date_to) {
+                sweetAlert("Invalid Date", "Date From must not be greater than Date To.", "error");
+                document.getElementById("ot_date_to").focus();
+            }
+            var filed_date = date_to.toISOString().split('T')[0];
+           if(cutoffCheck(cutoff_date,filed_date)){
+                sweetAlert("Invalid Filing Date", "Date filed must be after cut-off period! Please select another date.", "error");
+                document.getElementById("btnSubmitOT").disabled = true;    
+            }else{
+                 document.getElementById("btnSubmitOT").disabled = false;
+            }
+
+        });
+
+        //OB FILING VALIDATION
+        $('#ob_date_from').blur(function(){
+            var cutoff_date = new Date($('#cutoff_date').val());
+            var date_from = new Date($('#ob_date_from').val());
+            var date_to = new Date($('#ob_date_to').val());
+            var filed_date = date_from.toISOString().split('T')[0];
+           if(cutoffCheck(cutoff_date,filed_date)){
+                sweetAlert("Invalid Filing Date", "Date filed must be after cut-off period! Please select another date.", "error");
+                document.getElementById("btnSubmitOB").disabled = true;    
+            }else{
+                 document.getElementById("btnSubmitOB").disabled = false;
+            }
+
+
+        });
+
+        $('#ob_date_to').blur(function(){
+            var cutoff_date = new Date($('#cutoff_date').val());
+            var date_from = new Date($('#ob_date_from').val());
+            var date_to = new Date($('#ob_date_to').val());
+            if (date_from > date_to) {
+                sweetAlert("Invalid Date", "Date From must not be greater than Date To.", "error");
+                document.getElementById("ob_date_to").focus();
+            }
+            var filed_date = date_to.toISOString().split('T')[0];
+           if(cutoffCheck(cutoff_date,filed_date)){
+                sweetAlert("Invalid Filing Date", "Date filed must be after cut-off period! Please select another date.", "error");
+                document.getElementById("btnSubmitOB").disabled = true;    
+            }else{
+                 document.getElementById("btnSubmitOB").disabled = false;
+            }
+
+        });
+
+
+
+ 
+    });
+</script>
+
+<script type="text/javascript">
+    $('#approve-leave').on('show.bs.modal', function(e) {
+        $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+    $('#approve-leave-all').on('show.bs.modal', function(e) {
+        $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+    $('#approve-leave-all-1').on('show.bs.modal', function(e) {
+        $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+    $('#approve-ob').on('show.bs.modal', function(e) {
+        $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+    $('#approve-ob-all').on('show.bs.modal', function(e) {
+        $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+    $('#approve-ob-all-1').on('show.bs.modal', function(e) {
+        $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+    $('#approve-ot').on('show.bs.modal', function(e) {
+        $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+    $('#approve-ot-all').on('show.bs.modal', function(e) {
+        $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+    $('#approve-ot-all-1').on('show.bs.modal', function(e) {
+        $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+
+    $('#log-off').on('show.bs.modal', function(e) {
+        $(this).find('.btn-logout').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+    $('#remove-file').on('show.bs.modal', function(e) {
+        $(this).find('.btn-logout').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+    $('#modal-lock').on('show.bs.modal', function(e) {
+        $(this).find('.btn-unpost').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+    $('#modal-unlock').on('show.bs.modal', function(e) {
+        $(this).find('.btn-post').attr('href', $(e.relatedTarget).data('href'));
+    });
+
+
+
+</script>
+
+<script type="text/javascript">
+
+    function show_history_leave(uid){
+        $.ajax({
+            type : 'POST',
+            data :{
+                'csrf_tams_token':'76e1bb23314004aaa08a7d9d47756446',
+                vusrid : uid
+                },
+            url: 'https://hcc-tams.com.ph/tams/report/show_history_leave',
+            success: function(e){         
+                $('#id_dtls').html(e);
+            }
+        });
+    }
+
+    function show_history_ot(uid){
+        $.ajax({
+            type : 'POST',
+            data :{
+                'csrf_tams_token':'76e1bb23314004aaa08a7d9d47756446',
+                vusrid : uid
+                },
+            url: 'https://hcc-tams.com.ph/tams/report/show_history_ot',
+            success: function(e){         
+                $('#id_dtls').html(e);
+            }
+        });
+    }
+
+    function show_history_ob(uid){
+        $.ajax({
+            type : 'POST',
+            data :{
+                'csrf_tams_token':'76e1bb23314004aaa08a7d9d47756446',
+                vusrid : uid
+                },
+            url: 'https://hcc-tams.com.ph/tams/report/show_history_ob',
+            success: function(e){         
+                $('#id_dtls').html(e);
+            }
+        });
+    }
+
+
+    function calcSundays(startDate, endDate){
+       var fromDate = new Date(startDate)
+        var toDate = new Date(endDate)
+        var sunday = 0
+        var milisec = 1000 * 60 * 60 * 24;
+        while (fromDate <= toDate) {
+            var day = fromDate.getDay()
+            if (day == 0) {
+                sunday++
+                //console.log('Date of sunday:', fromDate)
+            }
+            fromDate = new Date(+fromDate + milisec)
+        }
+        //console.log('Total no. of sundays:', sunday)
+        return sunday;
+    }
+
+
+
+
+    function cutoffCheck(cutoffdate,checkdate)
+    {
+        var offDate, cDate;
+
+        offDate = Date.parse(cutoffdate);
+        cDate = Date.parse(checkdate);
+
+        if((cDate <= offDate)){
+            return true;
+        }
+    }
+
+    
+
+</script></body>
+</html>

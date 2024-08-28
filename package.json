@@ -8,5 +8,11 @@
   "keywords": [],
   "author": "MasterZeeno <zeenoliev@gmail.com>",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
 }

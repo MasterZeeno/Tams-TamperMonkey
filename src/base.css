@@ -1,0 +1,51 @@
+:root,
+:host {
+  /* Primary */
+  --midnight-blue-50: #def0ff;
+  --midnight-blue-100: #b5ddff;
+  --midnight-blue-200: #7ac6ff;
+  --midnight-blue-300: #1fa6ff;
+  --midnight-blue-400: #0067b6;
+  --midnight-blue-500: #00387c;
+  --midnight-blue-600: #00247c;
+  --midnight-blue-700: #00167c;
+  --midnight-blue-800: #001270;
+  --midnight-blue-900: #001357;
+  --midnight-blue-950: #000e3c;
+  /* Primary Variant */
+  --matisse-50: #eaf6ff;
+  --matisse-100: #d2ebff;
+  --matisse-200: #9fd8ff;
+  --matisse-300: #48b9ff;
+  --matisse-400: #0097f1;
+  --matisse-500: #0068a5;
+  --matisse-600: #00548e;
+  --matisse-700: #004272;
+  --matisse-800: #00375d;
+  --matisse-900: #032e4f;
+  --matisse-950: #021d34;
+  /* Alternate */
+  --thunderbird-50: #ffebeb;
+  --thunderbird-100: #ffd3d3;
+  --thunderbird-200: #ffaeae;
+  --thunderbird-300: #ff7575;
+  --thunderbird-400: #ff2727;
+  --thunderbird-500: #cd0000;
+  --thunderbird-600: #b20202;
+  --thunderbird-700: #8f0000;
+  --thunderbird-800: #7a0303;
+  --thunderbird-900: #650808;
+  --thunderbird-950: #380000;
+  /* Alternate Variant */
+  --coral-red-50: #fff1f1;
+  --coral-red-100: #ffdfdf;
+  --coral-red-200: #ffc5c5;
+  --coral-red-300: #ff9d9d;
+  --coral-red-400: #ff6464;
+  --coral-red-500: #ff4d4d;
+  --coral-red-600: #ed1515;
+  --coral-red-700: #c80d0d;
+  --coral-red-800: #a50f0f;
+  --coral-red-900: #881414;
+  --coral-red-950: #4b0404;
+}
